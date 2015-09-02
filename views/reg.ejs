@@ -1,0 +1,21 @@
+<%- include header %>
+<div class="container">
+    <form class="form-signin">
+        <h2 class="form-signin-heading">请注册</h2>
+        <label for="inputUser" class="sr-only">用户名</label>
+        <input type="text" id="inputUser" name="uname" class="form-control" placeholder="用户名" required autofocus>
+        <label for="inputPassword" class="sr-only">密码</label>
+        <input type="password" id="inputPassword" name="password" class="form-control" placeholder="密码" required>
+        <label for="inputRePassword" class="sr-only">确认密码</label>
+        <input type="password" id="inputRePassword" name="repassword" class="form-control" placeholder="确认密码" required>
+        <label for="inputEmail" class="sr-only">邮箱</label>
+        <input type="email" id="inputEmail" name="email" class="form-control" placeholder="邮箱" required>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">注&nbsp;&nbsp;册</button>
+    </form>
+</div>
+<%- include footer %>

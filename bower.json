@@ -1,0 +1,21 @@
+{
+  "name": "express",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ifci/express",
+  "authors": [
+    "ifci <1020358873@qq.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4"
+  }
+}
